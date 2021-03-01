@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GranuleMetaDataFile SYSTEM "http://ecsinfo.gsfc.nasa.gov/ECSInfo/ecsmetadata/dtds/DPL/ECS/ScienceGranuleMetadata.dtd">
+<GranuleMetaDataFile>
+    <DTDVersion>1.0</DTDVersion>
+    <DataCenterId>NSIDC</DataCenterId>
+    <GranuleURMetaData>
+        <GranuleUR>SC:IODMS1B.001:122690515</GranuleUR>
+        <DbID>122690515</DbID>
+        <InsertTime>2017-08-07 12:58:35.192</InsertTime>
+        <LastUpdate>2017-08-07 12:58:35.192</LastUpdate>
+        <CollectionMetaData>
+            <ShortName>IODMS1B</ShortName>
+            <VersionID>1</VersionID>
+        </CollectionMetaData>
+        <DataFiles>
+            <DataFileContainer>
+                <DistributedFileName>DMS_1742629_08917_20170419_15544407.tif</DistributedFileName>
+                <FileSize>22765459</FileSize>
+                <ChecksumType>MD5</ChecksumType>
+                <Checksum>836e6118fbc3dc8cb77583bc605a95c9</Checksum>
+                <ChecksumOrigin>DPLIngst</ChecksumOrigin>
+            </DataFileContainer>
+        </DataFiles>
+        <ECSDataGranule>
+            <SizeMBECSDataGranule>21.7108</SizeMBECSDataGranule>
+            <LocalGranuleID>DMS_1742629_08917_20170419_15544407.tif</LocalGranuleID>
+            <ProductionDateTime>2017-08-06 15:10:15.000</ProductionDateTime>
+            <LocalVersionID>1</LocalVersionID>
+        </ECSDataGranule>
+        <SingleDateTime>
+            <TimeofDay>15:54:44.0700000Z</TimeofDay>
+            <CalendarDate>2017-04-19</CalendarDate>
+        </SingleDateTime>
+        <SpatialDomainContainer>
+            <HorizontalSpatialDomainContainer>
+                <GPolygon>
+                    <Boundary>
+                        <Point>
+                            <PointLongitude>-122.541215</PointLongitude>
+                            <PointLatitude>77.567318</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>-122.535243</PointLongitude>
+                            <PointLatitude>77.573137</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>-122.505843</PointLongitude>
+                            <PointLatitude>77.571736</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>-122.511828</PointLongitude>
+                            <PointLatitude>77.565918</PointLatitude>
+                        </Point>
+                    </Boundary>
+                </GPolygon>
+            </HorizontalSpatialDomainContainer>
+        </SpatialDomainContainer>
+        <Platform>
+            <PlatformShortName>P-3B</PlatformShortName>
+            <Instrument>
+                <InstrumentShortName>DMS</InstrumentShortName>
+                <Sensor>
+                    <SensorShortName>DMS</SensorShortName>
+                </Sensor>
+            </Instrument>
+        </Platform>
+        <Campaign>
+            <CampaignShortName>2017_GR_NASA</CampaignShortName>
+        </Campaign>
+        <PSAs>
+            <PSA>
+                <PSAName>AircraftID</PSAName>
+                <PSAValue>N426NA</PSAValue>
+            </PSA>
+            <PSA>
+                <PSAName>ThemeID</PSAName>
+                <PSAValue>2017_GR_NASA</PSAValue>
+            </PSA>
+        </PSAs>
+        <BrowseProduct>
+            <BrowseGranuleId>UR:10:DsShESDTUR:UR:15:DsShSciServerUR:15:[NSIDC:DSSDSRV]:23:BR:Browse.001:122690596</BrowseGranuleId>
+        </BrowseProduct>
+    </GranuleURMetaData>
+</GranuleMetaDataFile>
+
+
